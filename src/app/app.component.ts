@@ -2,12 +2,15 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
+  styleUrl: './app.component.scss',
   template: `
-    <h1>Welcome to {{title}}!</h1>
 
-    <router-outlet></router-outlet>
-  `,
-  styleUrl: './app.component.scss'
+    <app-header/>
+
+
+
+  `
+
 })
 export class AppComponent {
   title = 'todo-app-angular';
