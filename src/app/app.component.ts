@@ -4,11 +4,11 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   styleUrl: './app.component.scss',
   template: `
-    <app-header/>
-    <app-new-task/>
-    <app-task-list/>
-
-
+      <div class="dark:bg-gray-600 h-screen">
+          <app-header/>
+          <app-new-task/>
+          <app-task-list/>
+      </div>
   `
 })
 export class AppComponent {

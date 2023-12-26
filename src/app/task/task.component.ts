@@ -6,7 +6,7 @@ import {TaskService} from "../service/task.service";
   selector: 'app-task',
   styleUrl: './task.component.scss',
   template: `
-    <div class="flex justify-between items-center p-2 hover:bg-slate-300">
+    <div class="flex justify-between items-center p-2 hover:bg-slate-300 dark:hover:bg-gray-700 hover:cursor-pointer">
         <div class="flex items-center">
             <input [checked]="task.status" type="checkbox"
                     id="chk-{{task.id}}"
