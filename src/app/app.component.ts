@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   template: `
     <app-header/>
     <app-new-task/>
-
+    <app-task-list/>
 
 
   `
