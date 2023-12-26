@@ -1,5 +1,7 @@
 import {TaskDto} from "../dto/task-dto";
+import {Injectable} from "@angular/core";
 
+@Injectable()
 export class TaskService {
 
   private taskList: Array<TaskDto> = [
